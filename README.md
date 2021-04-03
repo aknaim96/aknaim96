@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @aknaim96
 - 👀 I’m interested in ... psychology, geography, economics, computer science.
 - 🌱 I’m currently learning ... blockchain, algorithms, python, javascript, 
-- 💞️ I’m looking to collaborate on ... blockchain, cryptocurrency mining, education, 
+- 💞️ I’m looking to collaborate on ... blockchain, cryptocurrency, education, reusability
 - 📫 How to reach me ...
 
 <!---
