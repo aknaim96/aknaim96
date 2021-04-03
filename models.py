@@ -6,13 +6,20 @@ class Person(models.Model):
   
 class Lesson(models.Model):
   author_name = models.CharField(max_length=30)
-  date = 
-  subject = 
-  writtenContent = 
+  release_date = models.DateField()
+  last_updated = models.DateField()
+  SUBJECTS = (
+        ('S', 'Small'),
+        ('M', 'Medium'),
+        ('L', 'Large'),
+    )
+  subject = models.CharField(max_length=1, choices=SUBJECTS)
+
+  writtenContent = models.CharField(max_length=30)
   mediaContect = 
   
 class PortfolioProject(models.Model):
   industry = models.CharField(max_length=30)
   mediaContent = 
-  writtenContent = 
+  writtenContent = models.CharField(max_length=30)
   
