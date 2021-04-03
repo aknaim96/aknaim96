@@ -4,6 +4,10 @@
 
 #!/bin/bash
 echo "This is a shell script, v- djangosetup."
-
+if 
+echo "First lets setup python"
+echo "second we set up pip"
+echo "Last we install virtual environment"
+echo 
 
 echo "Completed."
