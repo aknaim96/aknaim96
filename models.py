@@ -9,9 +9,9 @@ class Lesson(models.Model):
   release_date = models.DateField()
   last_updated = models.DateField()
   SUBJECTS = (
-        ('S', 'Small'),
-        ('M', 'Medium'),
-        ('L', 'Large'),
+        ('E', 'Education'),
+        ('M', 'Market Research'),
+        ('C', 'Carpentry'),
     )
   subject = models.CharField(max_length=1, choices=SUBJECTS)
 
