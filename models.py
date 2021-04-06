@@ -12,7 +12,7 @@ class SiteUpdate(models.Model):
   
 class Lesson(models.Model):
   #this Lesson model is intended for efficienct publishing. Teachers may upload written content such as lessons for students to view and learn from. Lessons are identified by
-  #author, lesson title, subject, release date, and last updated. By structuring and storing the skeleton of a lesson, teachers are able to focus more on creativity.  
+  #author, lesson title, subject, release date, and last updated. By reusing the skeleton of a lesson, teachers are able to focus more on creativity.  
   author_name = models.CharField(max_length=30)
   lesson_title = models. CharField(max_length=15)
   SUBJECTS = (
