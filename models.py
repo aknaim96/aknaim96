@@ -7,8 +7,10 @@ from django.db import models
 class SiteUpdate(models.Model):
   #this SiteUpdate model is intended to advertise newly added features of the application.
   release_date = models.DateField()
-  written_content = models.CharField(max_length=150)
-  
+  updated_content = models.CharField(max_length=150)
+
+class AuthorBio(models.Model):
+  #this AuthorBio model is intended to exclaim the characteristics, history, and/or qualifications of the author. It holds mandatory qualities including 
   
 class Lesson(models.Model):
   #this Lesson model is intended for efficienct publishing. Teachers may upload written content such as lessons for students to view and learn from. Lessons are identified by
