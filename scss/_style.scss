@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    
+}
+
+
+nav {
+
+    margin-top: 1%;
+    position: fixed;
+    font-family: 'Lora', serif;
+
+    
+    
+    .container-fluid {
+        background-color: $primary;
+        border: 1px solid black;
+    }
+
+
+    .navbar-brand {
+        font-size: 35px;
+
+
+    }
+
+    a {
+        font-size: 20px;
+
+    }
+}
+
+
